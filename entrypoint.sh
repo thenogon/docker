@@ -70,7 +70,7 @@ check_configured() {
 initialize_system() {
   echo "Initializing Cachet container ..."
 
-  APP_KEY=${APP_KEY:-}
+  APP_KEY=${APP_KEY:-base64:AdrpECtXApNutVv9R66vJh0AolzJ9YW4wP3sA2UHPIU=}
   APP_ENV=${APP_ENV:-development}
   APP_DEBUG=${APP_DEBUG:-true}
   APP_URL=${APP_URL:-http://localhost}
